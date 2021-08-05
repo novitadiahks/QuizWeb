@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 98%;
+    margin: auto;
+    height: auto;
+    background-color: white;
+}
+
+.container img {
+    width: 100%;
+    height: 170px;
+}
+nav {
+    background-color: rgb(0,0,0);
+    padding: 12px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 12px 48.2px;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: dodgerblue;
+}
+
+header {
+    margin-top: 20px;
+}
+
+.newCustomer {
+    float: right;
+    text-decoration: none;
+    background-color: dodgerblue;
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.input {
+    padding: 10px;
+}
+
+.input form [type=search]{
+    padding: 7px;
+}
+
+.button_cari{
+    padding: 7px 20px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.selectionField{
+    padding: 7px;
+    margin-right: 25px;
+    padding-right: 20px;
+}
+
+.input form label {
+    margin-right: 35px;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #f2f5f7;
+}
+
+table tr th {
+    background: dodgerblue;
+    padding: 18px;
+    border: 1px solid dodgerblue;
+    color: white;
+}
+
+table, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+table tr td {
+    border: 1px solid #030303;
+}
+
+table tr:hover {
+    background-color: #f5f5f5;
+}
+
+table tr:nth-child(even) {
+    background-color: #c0c2c0;
+}
+
+.nomor, .kd_pembeli {
+    text-align: right;
+}
+
+.nomor {
+    margin-left: 2px;
+}
+
+.ubah {
+    text-decoration: none;
+    background-color: rgb(9, 192, 9);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.hapus {
+    text-decoration: none;
+    background-color: rgb(202, 29, 29);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.insert_php, .ubah_php{
+    background-color: dodgerblue;
+    padding: 20px;
+}
+
+.judul {
+    margin: 20px 0;
+}
+
+.insert_php label, .ubah_php label {
+    color: white;
+}
+
+.nama {
+    margin-right: 180px;
+}
+
+.kelamin {
+    margin-right: 148px;
+}
+
+.alamat {
+    margin-right: 230px;
+}
+
+.insert_php [type=text], .button_tambah{
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 20%;
+}
+
+.ubah_php [type=text], .button_ubah{
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 20%;
+}
+
+.insert_php [type=submit], .ubah_php [type=submit]{
+    width: 120px;
+}
